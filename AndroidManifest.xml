@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1" package="com.android.camera" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <original-package android:name="com.android.camera" />
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="@integer/targe_sdk_version" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.miui.gallery.permission.BIND_SERVICE" />
+    <application android:theme="@style/ThemeCamera" android:label="@string/camera_label" android:icon="@mipmap/ic_launcher_camera" android:name="com.android.camera.CameraAppImpl" android:backupAgent="miui.app.backup.FullBackupAgent" android:allowBackup="true" android:hardwareAccelerated="true" android:supportsRtl="true">
+        <meta-data android:name="android.max_aspect" android:value="2.2" />
+        <uses-library android:name="zxing.jar" android:required="false" />
+        <uses-library android:name="miui-stat.jar" />
+        <uses-library android:name="android-support-v13.jar" />
+        <uses-library android:name="android-support-v7-recyclerview.jar" />
+        <uses-library android:name="cloud-common.jar" />
+        <service android:name=".snap.SnapService" android:exported="false" />
+        <receiver android:name=".snap.SnapKeyReceiver">
+            <intent-filter>
+                <action android:name="miui.intent.action.CAMERA_KEY_BUTTON" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.camera.CameraButtonIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.CAMERA_BUTTON" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.camera.storage.PriorityStorageBroadcastReceiver" android:enabled="@bool/priority_storage">
+            <intent-filter>
+                <action android:name="miui.intent.action.PRIORITY_STORAGE" />
+            </intent-filter>
+            <meta-data android:name="miui.intent.extra.PRIORITY_STORAGE_KILL_APP" android:value="1" />
+            <meta-data android:name="miui.intent.extra.PRIORITY_STORAGE_HIDE" android:value="@integer/hide_priority_in_system_settings" />
+        </receiver>
+        <activity android:name="com.android.camera.Camera" android:clearTaskOnLaunch="true" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible|adjustPan|adjustNothing" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity-alias android:label="@string/video_camera_label" android:name="com.android.camera.VideoCamera" android:screenOrientation="portrait" android:targetActivity="com.android.camera.Camera">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/ThemeCameraSettings" android:label="@string/camera_settings_label" android:name="com.android.camera.CameraPreferenceActivity" android:screenOrientation="behind" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize">
+            <intent-filter android:priority="60">
+                <action android:name="miui.intent.action.APP_SETTINGS" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="functionindex" android:resource="@xml/functionindex" />
+        </activity>
+        <service android:name=".backup.CameraSettingsBackupService" android:permission="android.permission.BACKUP" android:exported="true">
+            <intent-filter>
+                <action android:name="miui.action.CLOUD_BACKUP_SETTINGS" />
+                <action android:name="miui.action.CLOUD_RESTORE_SETTINGS" />
+            </intent-filter>
+        </service>
+        <service android:name="com.android.camera.EmptyService" android:exported="true">
+            <intent-filter>
+                <action android:name="miui.action.CAMERA_EMPTY_SERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
