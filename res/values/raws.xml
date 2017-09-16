@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="backdropper">res/raw/backdropper.graph</raw>
+    <raw name="blank">res/raw/blank.jpg</raw>
+    <raw name="dualcamera_watermark">res/raw/dualcamera_watermark.png</raw>
+    <raw name="goofy_face">res/raw/goofy_face.graph</raw>
+    <raw name="statistic_rules">res/raw/statistic_rules.xml</raw>
+    <raw name="xiaomi_static_config">res/raw/xiaomi_static_config</raw>
+</resources>

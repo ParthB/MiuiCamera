@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.GridSettingPopupWhiteBalance xmlns:android="http://schemas.android.com/apk/res/android" android:layoutDirection="locale" style="@style/SettingPopupWindow">
+    <RelativeLayout android:id="@id/content_layout" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <GridView android:id="@id/settings_grid" android:clickable="true" android:choiceMode="singleChoice" style="@style/SettingItemGrid" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <com.android.camera.ui.HorizontalListView android:id="@id/horizon_listview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b001c" />
+    </RelativeLayout>
+</com.android.camera.ui.GridSettingPopupWhiteBalance>

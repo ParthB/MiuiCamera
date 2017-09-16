@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.GridSettingTextPopup xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/scene_popup_layout_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0026" style="@style/SettingPopupWindow">
+    <RelativeLayout android:id="@id/content_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <GridView android:id="@id/settings_grid" android:choiceMode="singleChoice" android:layoutDirection="locale" style="@style/SettingItemGrid" />
+        </LinearLayout>
+        <com.android.camera.ui.SplitLineDrawer android:id="@id/text_popup_split_line_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+</com.android.camera.ui.GridSettingTextPopup>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="camera_other_preferences">res/xml/camera_other_preferences.xml</xml>
+    <xml name="camera_preferences">res/xml/camera_preferences.xml</xml>
+    <xml name="camera_skin_beautify_preferences">res/xml/camera_skin_beautify_preferences.xml</xml>
+    <xml name="functionindex">res/xml/functionindex.xml</xml>
+    <xml name="v6_camera_flashmode_preferences">res/xml/v6_camera_flashmode_preferences.xml</xml>
+    <xml name="v6_camera_hdr_preferences">res/xml/v6_camera_hdr_preferences.xml</xml>
+    <xml name="v6_camera_picker_preferences">res/xml/v6_camera_picker_preferences.xml</xml>
+    <xml name="v6_peak_focus_preferences">res/xml/v6_peak_focus_preferences.xml</xml>
+    <xml name="v6_video_flashmode_preferences">res/xml/v6_video_flashmode_preferences.xml</xml>
+    <xml name="v6_video_hdr_preferences">res/xml/v6_video_hdr_preferences.xml</xml>
+    <xml name="video_preferences">res/xml/video_preferences.xml</xml>
+</resources>

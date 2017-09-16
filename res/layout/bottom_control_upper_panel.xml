@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.BottomControlUpperPanel xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/bottom_control_upper_panel" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b003c" android:layout_alignParentTop="true">
+    <com.android.camera.ui.EffectButton android:id="@id/effect_mode_button" android:src="@drawable/ic_effect_button_normal" android:layout_alignParentLeft="true" android:contentDescription="@string/accessibility_effect_mode_button" style="@style/PanelRotateImageViewStyle" />
+    <com.android.camera.ui.ModeButton android:textSize="@dimen/upper_text_setting_textSize" android:id="@id/mode_button" android:text="@string/camera_mode_options" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_mode" style="@style/PanelTextButtonStyle" />
+    <com.android.camera.ui.V6CameraPicker android:id="@id/v6_camera_picker" android:src="@drawable/ic_camera_picker" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/accessibility_camera_picker" style="@style/PanelRotateImageViewStyle" />
+    <View android:id="@id/top_control_bottom_line" android:layout_alignParentBottom="true" style="@style/PopupSeperator" />
+</com.android.camera.ui.BottomControlUpperPanel>

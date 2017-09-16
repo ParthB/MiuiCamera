@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.V6SkinBeautifySeekbarPopup xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="UNKNOWN_DATA_0x7f0b0055" android:layoutDirection="locale" style="@style/SettingPopupWindow">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:paddingStart="@dimen/v6_skin_beautify_text_padding_left" android:paddingEnd="@dimen/v6_skin_beautify_text_padding_right">
+        <TextView android:id="@id/min" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/SkinBeautifySeekbarTextStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" android:paddingStart="@dimen/v6_skin_beautify_seek_bar_padding" android:paddingEnd="@dimen/v6_skin_beautify_seek_bar_padding">
+            <com.android.camera.ui.V6SeekBar android:id="@id/bar" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView android:id="@id/max" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/SkinBeautifySeekbarTextStyle" />
+    </LinearLayout>
+    <View android:layout_alignParentBottom="true" style="@style/PopupSeperator" />
+</com.android.camera.ui.V6SkinBeautifySeekbarPopup>

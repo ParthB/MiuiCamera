@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.V6IndicatorButton xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.android.camera.ui.TwoStateImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/setting_item_text_size" android:textColor="@color/v6_indicator_text_color" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/mode_remind" android:contentDescription="0x0" android:layout_toEndOf="@id/text" style="@style/RemindStyle" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.android.camera.ui.V6IndicatorButton>

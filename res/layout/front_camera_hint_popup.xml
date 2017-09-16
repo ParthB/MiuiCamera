@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/front_camera_hint_animation" />
+    <TextView android:id="@id/front_camera_hint_text_rotate" />
+    <TextView android:id="@id/front_camera_hint_text_place" />
+    <View android:id="@id/front_camera_hint_seperator" />
+    <TextView android:id="@id/front_camera_hint_text_confirm" />
+</RelativeLayout>

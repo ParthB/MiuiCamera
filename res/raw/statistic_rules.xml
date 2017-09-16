@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules>
+    <rule name="滤镜">
+        <event key="effect_instagram_clarendon_picture_taken_key" name="小清新滤镜张数"/>
+        <event key="effect_instagram_crema_picture_taken_key" name="秋色滤镜张数"/>
+        <event key="effect_vsco_f2_picture_taken_key" name="典雅滤镜张数"/>
+        <event key="effect_vsco_a4_picture_taken_key" name="唯美滤镜张数"/>
+        <event key="effect_blackwhite_picture_taken_key" name="褪色滤镜张数"/>
+        <event key="effect_instagram_rise_picture_taken_key" name="LOMO滤镜张数"/>
+        <event key="effect_instagram_hudson_picture_taken_key" name="蓝调滤镜张数"/>
+        <event key="effect_big_face_picture_taken_key" name="大脸猫滤镜张数"/>
+        <event key="effect_small_face_picture_taken_key" name="外星人滤镜张数"/>
+        <event key="effect_long_face_picture_taken_key" name="拉伸滤镜张数"/>
+        <event key="effect_light_tunnel_picture_taken_key" name="光隧道滤镜张数"/>
+        <event key="effect_gray_picture_taken_key" name="黑白滤镜张数"/>
+        <event key="effect_vivid_picture_taken_key" name="生动滤镜张数"/>
+        <event key="effect_yesteryear_picture_taken_key" name="往昔滤镜张数"/>
+        <event key="effect_gaussian_picture_taken_key" name="背景虚化滤镜张数"/>
+        <event key="effect_fisheye_picture_taken_key" name="鱼眼滤镜张数"/>
+        <event key="effect_mosaic_picture_taken_key" name="马赛克滤镜张数"/>
+        <event key="effect_brannan_picture_taken_key" name="晨光滤镜张数"/>
+        <event key="effect_seventy_picture_taken_key" name="年代70滤镜张数"/>
+        <event key="effect_jstyle_picture_taken_key" name="日系滤镜张数"/>
+        <event key="effect_earlybird_picture_taken_key" name="秋色滤镜张数"/>
+        <event key="effect_nashvile_picture_taken_key" name="靛青滤镜张数"/>
+        <event key="effect_mirror_picture_taken_key" name="镜面滤镜张数"/>
+        <event key="effect_sketch_picture_taken_key" name="素描滤镜张数"/>
+    </rule>
+    <rule name="倒计时">
+        <event key="capture_times_audio" name="声控拍照次数"/>
+        <event key="capture_times_count_down_3s" name="倒计时3s次数"/>
+        <event key="capture_times_count_down_5s" name="倒计时5s次数"/>
+        <event key="capture_times_count_down_10s" name="倒计时10s次数"/>
+    </rule>
+    <rule name="前后置拍照">
+        <event key="front_camera_picture_taken_key" name="自拍张数"/>
+        <event key="back_camera_picture_taken_key" name="后置张数"/>
+    </rule>
+    <rule name="地理位置信息">
+        <event key="picture_with_location_key" name="记录位置信息图片张数"/>
+        <event key="video_with_location_key" name="记录位置信息视频次数"/>
+    </rule>
+    <rule name="总体概况">
+        <event key="camera_picture_taken_key" name="拍照次数"/>
+        <event key="video_recorded_key" name="录像次数"/>
+        <event key="open_camera_fail_key" name="相机无法连接次数"/>
+    </rule>
+    <rule name="拍照模式">
+        <event key="capture_nums_normal_hdr" name="标准HDR拍照张数"/>
+        <event key="capture_nums_live_hdr" name="实时HDR拍照张数"/>
+        <event key="capture_nums_burst" name="连拍张数"/>
+        <event key="capture_nums_beauty" name="美颜张数"/>
+        <event key="capture_nums_hht" name="夜间防抖张数"/>
+        <event key="capture_nums_ubfocus" name="魔术对焦拍照张数"/>
+        <event key="capture_nums_manual" name="手动拍照张数"/>
+        <event key="capture_nums_gradienter" name="水平仪拍照张数"/>
+        <event key="capture_nums_tilt_shift_circle" name="圆形移轴拍照张数"/>
+        <event key="capture_nums_tilt_shift_parallel" name="平行移轴拍照张数"/>
+        <event key="capture_nums_video_capture" name="录像时拍照张数"/>
+        <event key="capture_nums_panorama" name="全景拍照张数"/>
+        <event key="capture_times_quick_snap" name="街拍张数"/>
+    </rule>
+    <rule name="拍照方式">
+        <event key="capture_times_focus_view" name="曝光环拍照次数"/>
+        <event key="capture_times_volume" name="音量键拍照次数"/>
+        <event key="capture_times_shutter" name="拍照键拍照次数"/>
+        <event key="capture_times_audio" name="声控拍照次数"/>
+        <event key="capture_times_count_down" name="倒计时拍照次数"/>
+        <event key="capture_times_long_press" name="长按屏幕拍照次数"/>
+        <event key="capture_times_t2t" name="物体追踪拍照次数"/>
+        <event key="capture_times_finger" name="指纹拍照次数"/>
+        <event key="record_times_finger" name="指纹录像次数"/>
+    </rule>
+    <rule name="录像操作">
+        <event key="video_front_camera_recording_times_key" name="前置录像次数"/>
+        <event key="video_torch_recording_times_key" name="开闪光灯录像次数"/>
+        <event key="video_pause_recording_times_key" name="录像暂停次数"/>
+    </rule>
+    <rule name="拍照比例">
+        <event key="capture_nums_panorama" name="全景拍照张数"/>
+        <event key="capture_times_size_16_9" name="全屏张数"/>
+        <event key="capture_times_size_4_3" name="半屏张数"/>
+    </rule>
+    <rule name="录像质量">
+        <event key="video_quality_4k_recording_times_key" name="超高清录像次数"/>
+        <event key="video_quality_1080_recording_times_key" name="全高清录像次数"/>
+        <event key="video_quality_720_recording_times_key" name="高清录像次数"/>
+        <event key="video_quality_480_recording_times_key" name="标清录像次数"/>
+    </rule>
+    <rule name="其他操作">
+        <event key="pref_camera_exposure_key" name="曝光环调节次数" />
+        <event key="pref_camera_referenceline_key" name="辅助线点击次数"/>
+        <event key="pref_settings" name="设置点击次数"/>
+        <event key="scroll_to_menu_key" name="滑动到Menu次数"/>
+        <event key="scroll_to_effect_key" name="滑动到特效次数"/>
+        <event key="t2t_times" name="物体追踪次数"/>
+        <event key="zoom_gesture_times" name="手势ZOOM次数"/>
+        <event key="zoom_volume_times" name="音量键ZOOM次数"/>
+    </rule>
+    <rule name="手动模式">
+        <event key="pref_camera_manual_mode_key" name="手动模式点击次数"/>
+        <event key="pref_camera_whitebalance_key" name="白平衡点击次数"/>
+        <event key="pref_focus_position_key" name="对焦点击次数"/>
+        <event key="pref_qc_camera_exposuretime_key" name="快门时间点击次数"/>
+        <event key="pref_qc_camera_iso_key" name="ISO点击次数"/>
+        <event key="manual_whitebalance_key" name="手动白平衡点击次数"/>
+    </rule>
+    <rule name="录像模式">
+        <event key="pref_video_speed_fast_key" name="快动作录像点击次数"/>
+        <event key="pref_video_speed_slow_key" name="慢动作录像点击次数"/>
+        <event key="pref_video_hdr_key" name="HDR录像点击次数"/>
+    </rule>
+    <rule name="拍照模式">
+        <event key="pref_camera_panoramamode_key" name="全景点击次数"/>
+        <event key="pref_delay_capture_mode" name="延时快门点击次数"/>
+        <event key="pref_camera_hdr_key" name="HDR点击次数"/>
+        <event key="pref_camera_face_beauty_mode_key" name="美颜模式点击次数"/>
+        <event key="pref_camera_ubifocus_key" name="魔术对焦点击次数"/>
+        <event key="pref_camera_gradienter_key" name="水平仪模式点击次数"/>
+        <event key="pref_camera_manual_mode_key" name="手动模式点击次数"/>
+        <event key="pref_camera_tilt_shift_mode" name="移轴模式点击次数"/>
+        <event key="pref_camera_square_mode_key" name="正方形点击次数"/>
+        <event key="pref_camera_hand_night_key" name="夜景防抖点击次数"/>
+        <event key="pref_camera_scenemode_key" name="场景点击次数"/>
+        <event key="pref_camera_shader_coloreffect_key" name="滤镜点击次数"/>
+    </rule>
+    <rule name="全景拍摄方式">
+        <event key="panorama_capture_left_start" name="全景左起张数"/>
+        <event key="panorama_capture_right_start" name="全景右起张数"/>
+    </rule>
+    <rule name="全景2次拍摄方式">
+        <event key="panorama_capture_2_times_left_start" name="全景2次左起张数"/>
+        <event key="panorama_capture_2_times_right_start" name="全景2次右起张数"/>
+        <event key="panorama_capture_2_times_random_start" name="全景2次随机起张数"/>
+    </rule>
+    <rule name="照片水印">
+        <event key="time_watermark_taken_key" name="时间水印照片张数"/>
+        <event key="faceinfo_watermark_taken_key" name="人脸信息水印照片张数"/>
+        <event key="dual_watermark_taken_key" name="双摄水印照片张数"/>
+    </rule>
+    <rule name="相机启动">
+        <event key="launch_normal_times_key" name="常规启动次数"/>
+        <event key="launch_keyguard_times_key" name="锁屏启动次数"/>
+        <event key="launch_volume_key_times_key" name="双击音量启动次数"/>
+        <event key="launch_snap_times_key" name="街拍启动次数"/>
+        <event key="launch_capture_intent_times_key" name="拍照意图启动次数"/>
+        <event key="launch_video_intent_times_key" name="录像意图启动次数"/>
+    </rule>
+    <rule name="ev调节">
+        <event key="ev_adjust_keep_time_key" name="ev调节拍照后固定次数"/>
+        <event key="ev_adjust_recom_times_key" name="ev调节拍照后再调节次数"/>
+    </rule>
+    <rule name="触摸对焦后拍照方式">
+        <event key="touch_focus_focus_view_capture_times_key" name="触摸对焦后对焦环拍照次数"/>
+        <event key="touch_focus_shutter_capture_times_key" name="触摸对焦后拍照按钮拍照次数"/>
+        <event key="touch_focus_volume_capture_times_key" name="触摸对焦后音量键拍照次数"/>
+    </rule>
+</rules>
+

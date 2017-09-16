@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeCamera">
+        <item>?unknown_ref: 106000c</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>false</item>
+        <item>@style/Camera.ActionBar</item>
+        <item>true</item>
+    </style>
+    <style name="ThemeCamera">
+        <item>?unknown_ref: 106000c</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>0dp</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>false</item>
+        <item>@style/Camera.ActionBar</item>
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Camera.ActionBar">
+        <item>@drawable/actionbar_translucent</item>
+        <item>7</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="ThemeCameraSettings">
+        <item>true</item>
+    </style>
+    <style name="ThemeCameraSettings">
+        <item>true</item>
+        <item>@color/main_color_global</item>
+    </style>
+    <style name="Settings.ActionBar">
+        <item>@color/main_color_global</item>
+    </style>
+    <style name="OnScreenHintTextAppearance">
+        <item>16sp</item>
+        <item>0</item>
+        <item>?unknown_ref: 1060001</item>
+        <item>#ffff9200</item>
+        <item>#808080</item>
+        <item>#5c5cff</item>
+    </style>
+    <style name="OnScreenHintTextAppearance.Small">
+        <item>14sp</item>
+        <item>0</item>
+        <item>?unknown_ref: 1060005</item>
+    </style>
+    <style name="Animation_OnScreenHint">
+        <item>@anim/on_screen_hint_enter</item>
+        <item>@anim/on_screen_hint_exit</item>
+    </style>
+    <style name="ReviewControlIcon">
+        <item>11</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="ReviewPlayIcon">
+        <item>2</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>@drawable/ic_gallery_play_big</item>
+        <item>true</item>
+    </style>
+    <style name="SettingPopupWindow">
+        <item>1</item>
+        <item>2</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>true</item>
+    </style>
+    <style name="PopupTitleSeperator">
+        <item>@color/popup_title_color</item>
+        <item>-1</item>
+        <item>@dimen/popup_seperator_height</item>
+        <item>@dimen/popup_listview_left_padding</item>
+        <item>4dp</item>
+        <item>@dimen/popup_listview_left_padding</item>
+        <item>20dp</item>
+    </style>
+    <style name="PopupSeperator">
+        <item>#33ffffff</item>
+        <item>-1</item>
+        <item>@dimen/popup_seperator_height</item>
+    </style>
+    <style name="SettingItemRulerLine">
+        <item>11</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="SettingItemGrid">
+        <item>11</item>
+        <item>0</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>15dp</item>
+        <item>15dp</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>?unknown_ref: 0</item>
+        <item>5dp</item>
+        <item>5dp</item>
+        <item>5</item>
+        <item>2</item>
+    </style>
+    <style name="SettingExpandedTextGrid">
+        <item>0</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>?unknown_ref: 0</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>5</item>
+        <item>1</item>
+        <item>3</item>
+    </style>
+    <style name="SettingItemTitle">
+        <item>@dimen/setting_item_text_size</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>13</item>
+        <item>0dp</item>
+        <item>-1</item>
+        <item>true</item>
+        <item>1.0</item>
+    </style>
+    <style name="SettingColumn">
+        <item>11</item>
+        <item>1</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="SettingStatusBarImage">
+        <item>11</item>
+        <item>false</item>
+        <item>2</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>1dp</item>
+        <item>1dp</item>
+        <item>5</item>
+        <item>0.6</item>
+    </style>
+    <style name="SettingStatusBarText">
+        <item>@dimen/v6_setting_status_bar_textSize</item>
+        <item>1</item>
+        <item>#ffffffff</item>
+        <item>11</item>
+        <item>false</item>
+        <item>2</item>
+        <item>@dimen/v6_setting_status_bar_textWidth</item>
+        <item>@dimen/v6_setting_status_bar_textWidth</item>
+        <item>@dimen/v6_setting_status_bar_margin_top</item>
+        <item>false</item>
+        <item>#c0000000</item>
+        <item>4.0</item>
+        <item>true</item>
+    </style>
+    <style name="ScrollButtonImageView">
+        <item>-1</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="PanelButtonStyle">
+        <item>@dimen/panel_imageview_button_padding_width</item>
+        <item>@dimen/panel_imageview_button_padding_width</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>true</item>
+    </style>
+    <style name="PanelRotateImageViewStyle">
+        <item>5</item>
+    </style>
+    <style name="PanelTextButtonStyle">
+        <item>#ffffffff</item>
+        <item>11</item>
+        <item>true</item>
+    </style>
+    <style name="RotateImageViewStyle">
+        <item>-2</item>
+        <item>-2</item>
+        <item>5</item>
+        <item>true</item>
+    </style>
+    <style name="OnScreenIndicators">
+        <item>@drawable/bg_status_bar</item>
+        <item>26.5dp</item>
+        <item>40dp</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="PanoViewHorizontalBar">
+        <item>-1</item>
+        <item>-2</item>
+        <item>1.5</item>
+        <item>1.0</item>
+    </style>
+    <style name="ReviewThumbnail">
+        <item>1dp</item>
+        <item>1dp</item>
+        <item>5</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="ReviewThumbnailMask">
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="PanoCustomDialogText">
+        <item>?unknown_ref: 1030044</item>
+    </style>
+    <style name="EffectItemText">
+        <item>@dimen/effect_item_text_size</item>
+        <item>#ffffffff</item>
+        <item>11</item>
+        <item>@color/effect_item_text_halfscreen_background</item>
+        <item>true</item>
+    </style>
+    <style name="GridSettingItemText">
+        <item>@dimen/grid_setting_item_textSize</item>
+        <item>@color/grid_setting_item_text_color</item>
+        <item>11</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="GridTextOnlySettingItem">
+        <item>@dimen/grid_text_only_setting_item_textSize</item>
+        <item>@color/v6_grid_item_highlight_text_color</item>
+        <item>11</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="SingeTextItemTextStyle">
+        <item>@dimen/grid_text_only_setting_item_textSize</item>
+        <item>@color/text_item_text_color</item>
+        <item>11</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>true</item>
+    </style>
+    <style name="GridExpandedTextSettingItem">
+        <item>@dimen/expanded_text_item_textSize</item>
+        <item>1</item>
+        <item>#ffffffff</item>
+        <item>@drawable/bg_expanded_text_item</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="RecordingTimeStyle">
+        <item>@dimen/v6_recording_time_textSize</item>
+        <item>1</item>
+        <item>#ffffffff</item>
+        <item>11</item>
+        <item>#ff000000</item>
+        <item>4.0</item>
+        <item>@drawable/v6_ic_video_recordtime_indicator</item>
+        <item>5dp</item>
+    </style>
+    <style name="EffectTypeSeparator">
+        <item>#2c2c2c</item>
+        <item>-1</item>
+        <item>2dp</item>
+        <item>8dp</item>
+        <item>8dp</item>
+        <item>14dp</item>
+    </style>
+    <style name="EffectTitleSeparator">
+        <item>?unknown_ref: 1080014</item>
+        <item>4dp</item>
+        <item>-1</item>
+        <item>2dp</item>
+    </style>
+    <style name="OneRowGrid">
+        <item>-1</item>
+        <item>-1</item>
+        <item>0</item>
+    </style>
+    <style name="V6LayoutTopStyle">
+        <item>-1</item>
+        <item>@dimen/v6_setting_top_view_height</item>
+        <item>true</item>
+    </style>
+    <style name="V6LayoutBottomStyle">
+        <item>-1</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="V6SettingTopTextAppearance">
+        <item>@dimen/v6_setting_top_textSize</item>
+        <item>1</item>
+        <item>#e6ffffff</item>
+    </style>
+    <style name="DebugTextStyle">
+        <item>15sp</item>
+        <item>#ffff0000</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>#ff000000</item>
+        <item>2.0</item>
+        <item>2.0</item>
+        <item>1.0</item>
+    </style>
+    <style name="RemindStyle">
+        <item>2</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>@drawable/ic_new_remind</item>
+        <item>true</item>
+        <item>6dp</item>
+    </style>
+    <style name="SkinBeautifySeekbarTextStyle">
+        <item>@dimen/skin_beatify_seekbar_textSize</item>
+        <item>@color/skin_beatify_seekbar_text_color</item>
+        <item>11</item>
+        <item>true</item>
+    </style>
+    <style name="ZoomButtonDigitsTextStyle">
+        <item>@dimen/zoom_button_digits_textSize</item>
+        <item>@color/zoom_button_text_color</item>
+    </style>
+    <style name="ZoomButtonXTextStyle">
+        <item>@dimen/zoom_button_x_textSize</item>
+        <item>@color/zoom_button_text_color</item>
+    </style>
+    <style name="ZoomPopupDigitsTextStyle">
+        <item>@dimen/zoom_popup_digits_textSize</item>
+        <item>@color/zoom_popup_text_item_text_color</item>
+    </style>
+    <style name="ZoomPopupXTextStyle">
+        <item>@dimen/zoom_popup_x_textSize</item>
+        <item>@color/zoom_popup_text_item_text_color</item>
+    </style>
+    <style name="PortraitHintTextStyle">
+        <item>@dimen/portrait_hint_textSize</item>
+        <item>@color/portrait_hint_text_color</item>
+        <item>11</item>
+    </style>
+    <style name="PortraitUseHintTitleStyle">
+        <item>@dimen/portrait_use_hint_title_textSize</item>
+        <item>#ffffffff</item>
+        <item>11</item>
+    </style>
+    <style name="PortraitUseHintContentStyle">
+        <item>@dimen/portrait_use_hint_content_textSize</item>
+        <item>#a6ffffff</item>
+        <item>11</item>
+        <item>@dimen/portrait_use_hint_content_text_spacing</item>
+    </style>
+    <style name="location_dialog_content">
+        <item>16sp</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>sans-serif-regular</item>
+    </style>
+</resources>

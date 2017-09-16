@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.V6SettingPage xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/v6_setting_page" android:visibility="gone" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.camera.ui.ModeView android:id="@id/setting_mode_view" android:background="@color/mode_bg" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:measureAllChildren="false">
+            <com.android.camera.ui.ScreenView android:id="@id/setting_screens" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </com.android.camera.ui.ModeView>
+    </RelativeLayout>
+    <RelativeLayout android:layout_marginTop="@dimen/setting_page_margin_top" style="@style/V6LayoutTopStyle">
+        <TextView android:textAppearance="@style/V6SettingTopTextAppearance" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/setting_page_title_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/setting_page_margin_left_right" android:text="@string/camera_mode_options" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/setting_page_watermark_option_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/setting_page_margin_left_right" android:layout_alignParentStart="true">
+            <TextView android:textAppearance="@style/V6SettingTopTextAppearance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_dualcamera_watermark_title" />
+            <Switch android:id="@id/setting_page_watermark_option" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setting_page_watermark_margin" />
+        </LinearLayout>
+        <com.android.camera.ui.V6SettingButton android:id="@id/setting_button" android:paddingLeft="@dimen/setting_button_padding_width" android:paddingRight="@dimen/setting_button_padding_width" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/setting_button_margin_right" android:src="@drawable/ic_indicator_settings" android:scaleType="center" android:contentDescription="@string/accessibility_setting_button" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.android.camera.ui.SettingDismissButton android:id="@id/dismiss_setting" android:padding="@dimen/small_view_expanded_space" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/setting_dismiss_button_margin_bottom" android:src="@drawable/ic_cancel_mode_selection" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@string/accessibility_mode_dismiss_button" />
+</com.android.camera.ui.V6SettingPage>

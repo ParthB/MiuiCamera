@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.TopControlPanel xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/top_control_panel" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0b0095" android:layout_alignParentTop="true">
+    <com.android.camera.ui.FlashButton android:id="@id/v6_flash_mode_button" android:visibility="gone" android:src="@drawable/ic_flash_button_off" android:layout_alignParentLeft="true" android:contentDescription="@string/accessibility_flash_mode_button" style="@style/PanelRotateImageViewStyle" />
+    <com.android.camera.ui.HdrButton android:id="@id/v6_hdr" android:visibility="gone" android:src="@drawable/ic_hdr_off" android:layout_alignParentRight="true" android:contentDescription="@string/accessibility_hdr" style="@style/PanelRotateImageViewStyle" />
+    <com.android.camera.ui.SkinBeautyButton android:id="@id/skin_beatify_button" android:visibility="gone" android:src="@drawable/ic_facebeauty" android:layout_alignParentRight="true" android:contentDescription="@string/accessibility_skin_beautify_button" style="@style/PanelRotateImageViewStyle" />
+    <com.android.camera.ui.PeakButton android:textSize="@dimen/hdr_setting_textSize" android:id="@id/v6_peak" android:visibility="gone" android:layout_alignParentRight="true" android:contentDescription="@string/accessibility_peak" style="@style/PanelTextButtonStyle" />
+</com.android.camera.ui.TopControlPanel>

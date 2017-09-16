@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.V6PreviewPanel xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/v6_preview_panel" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@id/preview_cover" android:background="0x106000c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.android.camera.ui.V6RecordingTimeView android:id="@id/v6_recording_time_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b0095" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/RecordingTimeStyle" />
+    <RelativeLayout android:id="@id/v6_capture_delay_number_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.android.camera.ui.RotateTextView android:textSize="@dimen/capture_delay_number_text_size" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/v6_capture_delay_number" android:visibility="gone" android:clickable="false" android:layout_margin="@dimen/capture_delay_number_margin" android:layout_centerInParent="true" style="@style/RotateImageViewStyle" />
+    </RelativeLayout>
+    <com.android.camera.ui.RotateTextView android:textSize="@dimen/multi_snap_number_text_size" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/v6_multi_snap_number" android:visibility="gone" android:layout_centerInParent="true" style="@style/RotateImageViewStyle" />
+    <com.android.camera.ui.V6PreviewFrame android:id="@id/v6_frame_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.camera.ui.SplitLineDrawer android:id="@id/v6_reference_grid" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.android.camera.ui.FaceView android:id="@id/v6_faceview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.android.camera.ui.ObjectView android:id="@id/object_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.android.camera.ui.FocusView android:id="@id/v6_focus_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale" />
+        <ImageView android:id="@id/v6_video_review_image" android:background="0x106000c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.android.camera.ui.RotateImageView android:id="@id/v6_video_btn_play" android:visibility="gone" android:src="@drawable/ic_gallery_play_big" android:layout_centerInParent="true" style="@style/ReviewControlIcon" />
+        <com.android.camera.ui.V6EffectCropView android:id="@id/v6_effect_crop_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.android.camera.ui.V6PreviewFrame>
+</com.android.camera.ui.V6PreviewPanel>

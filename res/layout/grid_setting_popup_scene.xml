@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.GridSettingPopupSceneMode xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/scene_popup_layout_parent" android:layout_height="UNKNOWN_DATA_0x7f0b001a" android:layoutDirection="locale" style="@style/SettingPopupWindow">
+    <RelativeLayout android:id="@id/content_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <GridView android:id="@id/settings_grid" android:choiceMode="singleChoice" style="@style/SettingItemGrid" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <View android:id="@id/settings_grid_bottom_line" android:layout_alignParentBottom="true" style="@style/PopupSeperator" />
+        <View android:id="@id/settings_grid_upper_line" android:layout_alignParentTop="true" style="@style/PopupSeperator" />
+    </RelativeLayout>
+</com.android.camera.ui.GridSettingPopupSceneMode>

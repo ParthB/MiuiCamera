@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.PopupMenuItem xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0b001c" style="@style/SettingColumn">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/image" android:paddingBottom="5.67dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/text" style="@style/GridSettingItemText" />
+    </LinearLayout>
+</com.android.camera.ui.PopupMenuItem>

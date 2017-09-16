@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/ic_portrait_button_background">
+        <scale android:drawable="@drawable/ic_portrait_button_background" android:scaleWidth="100%" android:scaleHeight="100%" android:scaleGravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" />
+    </item>
+    <item android:id="@id/ic_portrait_button_foreground">
+        <scale android:scaleWidth="100%" android:scaleHeight="100%" android:scaleGravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end">
+            <level-list>
+                <item android:drawable="@drawable/ic_portrait_button_normal" android:minLevel="10000" android:maxLevel="10000" />
+                <item android:drawable="@drawable/ic_portrait_button_flat" android:maxLevel="9999" />
+            </level-list>
+        </scale> />
+</layer-list>

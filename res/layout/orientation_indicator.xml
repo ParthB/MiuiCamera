@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/orientation_indicator_area_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/qrcode_viewfinder_layout">
+    <com.android.camera.ui.RotateLayout android:id="@id/orientation_indicator_area" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.android.camera.ui.OrientationIndicator android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/orientation_indicator" android:visibility="gone" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0b0095" android:layout_height="UNKNOWN_DATA_0x7f0b0095" />
+        </LinearLayout>
+    </com.android.camera.ui.RotateLayout>
+</RelativeLayout>

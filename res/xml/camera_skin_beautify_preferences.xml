@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IconListPreference xmlns:android="http://schemas.android.com/apk/res/com.android.camera" camera:key="pref_camera_face_beauty_switch_key" camera:defaultValue="pref_camera_face_beauty_key" camera:entryValues="@array/pref_camera_face_beautify_entryvalues" camera:entries="@array/pref_camera_face_beautify_entries" camera:hasPopup="true" camera:icons="@array/camera_face_beautify_icons" />

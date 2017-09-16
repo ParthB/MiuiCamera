@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x7f0b0029" android:layout_height="UNKNOWN_DATA_0x7f0b002a" style="@style/SettingColumn">
+    <TextView android:id="@id/text" android:layout_centerInParent="true" style="@style/GridExpandedTextSettingItem" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Burahin ang mga napiling mga item?</item>
+        <item quantity="one">Burahin ang napiling item?</item>
+    </plurals>
+</resources>

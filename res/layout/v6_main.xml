@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/v6_gl_surface_view" />
+    <com.android.camera.ui.V6SurfaceViewFrame android:id="@id/v6_surface_view_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/main_content" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:id="@id/camera_debug_content" android:visibility="gone" style="@style/DebugTextStyle" />
+    <LinearLayout android:id="@id/portrait_use_hint_cover" android:background="#ff000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/portrait_use_hint_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/portrait_use_hint_logo_margin_top" android:src="@drawable/ic_portrait_use_hint_logo" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/portrait_use_hint_title_margin_top" android:text="@string/pref_camera_portrait_mode_title" style="@style/PortraitUseHintTitleStyle" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/portrait_use_hint_content_margin_top" android:text="@string/portrait_mode_use_hint" style="@style/PortraitUseHintContentStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/upper_text_setting_textSize" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hibernate_hint_view" android:background="#c0000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/hibernate_hint" />
+</FrameLayout>

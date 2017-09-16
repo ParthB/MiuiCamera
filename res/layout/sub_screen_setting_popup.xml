@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.SubScreenPopup xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" style="@style/SettingPopupWindow">
+    <LinearLayout android:orientation="vertical" android:id="@id/setting_view_popup_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/control_panel_bottom">
+        <View android:id="@id/manual_popup_parent_upper_line" android:visibility="gone" style="@style/PopupSeperator" />
+        <FrameLayout android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <FrameLayout android:id="@id/setting_view_popup_parent" android:layout_width="match_parent" android:layout_height="wrap_content" /> />
+        <com.android.camera.ui.SettingScreenView android:id="@id/setting_view" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureAllChildren="false" android:layoutDirection="locale">
+            <com.android.camera.ui.ScreenView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/setting_screens" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.android.camera.ui.SplitLineDrawer android:id="@id/split_line_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </com.android.camera.ui.SettingScreenView>
+    </LinearLayout>
+</com.android.camera.ui.SubScreenPopup>

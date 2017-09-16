@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="title">
+        <item>2</item>
+    </attr>
+    <attr name="key">
+        <item>2</item>
+    </attr>
+    <attr name="defaultValue">
+        <item>3</item>
+    </attr>
+    <attr name="entryValues">
+        <item>1</item>
+    </attr>
+    <attr name="entries">
+        <item>1</item>
+    </attr>
+    <attr name="hasPopup">
+        <item>2</item>
+    </attr>
+    <attr name="icons">
+        <item>1</item>
+    </attr>
+    <attr name="modes">
+        <item>1</item>
+    </attr>
+    <attr name="singleIcon">
+        <item>1</item>
+    </attr>
+    <attr name="largeIcons">
+        <item>1</item>
+    </attr>
+    <attr name="images">
+        <item>1</item>
+    </attr>
+</resources>

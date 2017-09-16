@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/rotate_dialog_root_layout" android:background="#55000000" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.camera.ui.RotateLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/rotate_dialog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/popup_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:id="@id/rotate_dialog_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/rotate_dialog_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:minHeight="64dp" style="@*style/TextAppearance.Holo.DialogWindowTitle" />
+                <View style="@style/PopupTitleSeperator" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/popup_background" android:padding="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/rotate_dialog_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/waiting_progress" />
+                <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/rotate_dialog_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@*style/TextAppearance.Holo.Medium" />
+            </LinearLayout>
+            <ImageView android:background="@drawable/list_divider" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/rotate_dialog_button_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/list_divider" android:minHeight="48dp" android:showDividers="middle" android:dividerPadding="0dp">
+                <Button android:textSize="@dimen/rotate_dialog_button_text_size" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/rotate_dialog_button2" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:minHeight="48dp" android:maxLines="2" android:layout_weight="1.0" style="@*style/Widget.Holo.Button.Borderless" />
+                <Button android:textSize="@dimen/rotate_dialog_button_text_size" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/rotate_dialog_button1" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:minHeight="48dp" android:maxLines="2" android:layout_weight="1.0" style="@*style/Widget.Holo.Button.Borderless" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.android.camera.ui.RotateLayout>
+</FrameLayout>
